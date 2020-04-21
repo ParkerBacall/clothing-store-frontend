@@ -1,6 +1,7 @@
 <template>
   <div>
       <h1>NGHTMRES</h1>
+      <h3>Creepy cute clothes printed by parker bacall and sophia gabrielson</h3>
   </div>
 </template>
 
