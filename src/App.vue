@@ -1,11 +1,19 @@
 <template>
-  <div id="app">
-    <div id="nav">
-     
-    </div>
-    <router-view/>
+  <div>
+      <Header/>
   </div>
 </template>
+
+<script>
+import Header from './components/Header'
+export default {
+  name: 'app',
+  components: {
+    Header
+  }
+}
+</script>
+
 
 <style>
 
