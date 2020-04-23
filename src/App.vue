@@ -1,20 +1,19 @@
 <template>
-  <div>
-      <Header/>
-  </div>
+  <v-app>
+    <Header/>
+  </v-app>
 </template>
 
 <script>
 import Header from './components/Header'
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     Header
-  }
-}
+  },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
-
-
-<style>
-
-</style>
