@@ -1,7 +1,9 @@
 <template>
   <div class="mx-auto mtn-5">
-      <h1>NGHTMRES</h1>
-      <h3>Creepy cute clothes printed by parker bacall and sophia gabrielson</h3>
+      <div class="header-div">
+        <h1>NGHTMRES</h1>
+      </div>
+      <h5>creepy cute clothes printed by parker bacall and sophia gabrielson</h5>
   </div>
 </template>
 
@@ -11,6 +13,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  .header-div {
+    display: flex;
+    justify-content: center;
+  }
 </style>
