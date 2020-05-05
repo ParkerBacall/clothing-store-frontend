@@ -1,8 +1,10 @@
 <template>
-  <div class="mx-auto mtn-5">
-    <h1>Products</h1>
-    <ProductGrid/>
-  </div>
+<div id="container">
+    <div id="h1-div">
+       <h1>Products</h1>
+    </div>
+      <ProductGrid/>
+</div>
 </template>
 
 <script>
@@ -15,6 +17,17 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+  #container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    #h1-div{
+      display: flex;
+      justify-content: center;
+      width:100%;
+    }
+  }
+  
 </style>
