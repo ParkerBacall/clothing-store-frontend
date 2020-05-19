@@ -10,9 +10,11 @@
 import Product from "./Product"
 export default {
   name: "ProductGrid", 
+   props: ["products"],
   components: {
     Product
   },
+
   
 }
 </script>

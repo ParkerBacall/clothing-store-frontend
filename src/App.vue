@@ -5,7 +5,7 @@
   
     <Nav/>
     <div id='spacer'/>
-    <router-view/>
+    <router-view :products="products"/>
     <Footer/>
   </v-app>
 </template>

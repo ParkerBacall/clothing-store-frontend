@@ -3,7 +3,7 @@
     <div id="h1-div">
        <h1>Products</h1>
     </div>
-      <ProductGrid/>
+      <ProductGrid :products="products"/>
 </div>
 </template>
 
@@ -11,6 +11,7 @@
 import ProductGrid from '../components/ProductGrid'
 export default {
     name: 'Products',
+    props: ["products"],
     components: {
       ProductGrid
     }

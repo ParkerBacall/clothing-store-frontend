@@ -10,7 +10,7 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Products',
-    component: Products
+    component: Products,
   },
   {
     path: '/about',
