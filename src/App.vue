@@ -22,10 +22,23 @@ export default {
     Footer
   },
 
-  data: () => ({
-    //
-  }),
-};
+  data() {
+   return{
+      products:[]
+    }
+  },
+  methods: {
+
+  },
+  mounted(){
+    fetch('http://localhost:9001/products')
+    .then(response => response.json())
+    .then(products => {
+      this.products = products
+    })
+  }
+}
+
 </script>
 
 <style scoped>
